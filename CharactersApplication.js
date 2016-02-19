@@ -1,4 +1,4 @@
-import React from 'react';
+import React from '../libraries/react';
 
 class CharactersApplication extends React.Component {
   render() {
