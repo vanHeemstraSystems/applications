@@ -4,7 +4,7 @@
  */
 module.exports = function() {
 	var _Application = {};
-	config = require('../configs/server.js');
+	config = require('../configurations/server.js');
 	var configs = config.configs,
 		server_prefix = configs.server_prefix || 'PREFIX';
 	var express = require('express');
