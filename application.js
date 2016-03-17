@@ -14,4 +14,4 @@ module.exports = function() {
   console.log(server_prefix + " - Applications application required.");
   _Application = express();
   return _Application;
-}();//calls itself
+};//does not call itself
